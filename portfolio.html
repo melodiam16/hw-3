@@ -16,101 +16,127 @@
   <body>
     <!-- header section -->
     <header class="page-header">
-      <a class="logo-link link" href="index.html">WEB<span class="logo-text">STUDIO</span></a>
-      <nav class="page-nav">
-        <ul class="menu item">
-          <li class="menu-item">
-            <a class="menu-link link current" href="portfolio.html">Studio</a>
-          </li>
-          <li class="menu-item">
-            <a class="menu-link link current" href="portfolio.html">Portfolio</a>
-          </li>
-          <li class="menu-item">
-            <a class="menu-link link" href="./index.html">Contacts</a>
-          </li>
+      <div class="header-container container">
+        <a class="logo-link link" href="index.html">WEB<span class="logo-text">STUDIO</span></a>
+        <nav class="page-nav">
+          <ul class="menu">
+            <li class="menu-item">
+              <a class="menu-link link" href="index.html">Studio</a>
+            </li>
+            <li class="menu-item">
+              <a class="menu-link link current" href="portfolio.html">Portfolio</a>
+            </li>
+            <li class="menu-item">
+              <a class="menu-link link" href="">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+        <ul class="list-contacts item">
+          <li><a class="contacts link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+          <li><a class="contacts link" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
         </ul>
-      </nav>
-      <ul class="list-contacts item">
-        <li><a class="contacts link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a class="contacts link" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
-      </ul>
+      </div>
     </header>
     <main>
       <!-- gallery section -->
-      <section>
-        <h1 class="not-vis">Gallery</h1>
-        <ul class="item">
-          <li><button class="btn-filter btn-1" type="button">All</button></li>
-          <li><button class="btn-filter btn-nav" type="button">Web site</button></li>
-          <li><button class="btn-filter btn-nav" type="button">App</button></li>
-          <li><button class="btn-filter btn-nav" type="button">Desing</button></li>
-          <li><button class="btn-filter btn-nav" type="button">Marketing</button></li>
-        </ul>
-        <ul class="item">
-          <li>
-            <img src="./images/hw-02-gallery-section/img-1.jpg" alt="Banking App Interface Concept"
-            width: 360px; height: 300px; />
-            <h2 class="subtitle-description">Banking App Interface Concept</h2>
-            <p class="text-description">App</p>
-          </li>
-          <li>
-            <img src="./images/hw-02-gallery-section/img-2.jpg" alt="Cashless Payment Marketing"
-            width: 360px; height: 300px; />
-            <h2 class="subtitle-description">Cashless Payment Marketing</h2>
-            <p class="text-description">Marketing</p>
-          </li>
-          <li>
-            <img src="./images/hw-02-gallery-section/img-3.jpg" alt="Meditaion App" width: 360px;
-            height: 300px; />
-            <h2 class="subtitle-description">Meditaion App</h2>
-            <p class="text-description">App</p>
-          </li>
-          <li>
-            <img src="./images/hw-02-gallery-section/img-4.jpg" alt="Taxi Service" width: 360px;
-            height: 300px; />
-            <h2 class="subtitle-description">Taxi Service</h2>
-            <p class="text-description">Marketing</p>
-          </li>
-          <li>
-            <img src="./images/hw-02-gallery-section/img-5.jpg" alt="Screen Illustrations" width:
-            360px; height: 300px; />
-            <h2 class="subtitle-description">Screen Illustrations</h2>
-            <p class="text-description">Design</p>
-          </li>
-          <li>
-            <img src="./images/hw-02-gallery-section/img-6.jpg" alt="Online Courses" width: 360px;
-            height: 300px; />
-            <h2 class="subtitle-description">Online Courses</h2>
-            <p class="text-description">Marketing</p>
-          </li>
-          <li>
-            <img src="./images/hw-02-gallery-section/img-7.jpg" alt="Instagram Stories Concept"
-            width: 360px; height: 300px; />
-            <h2 class="subtitle-description">Instagram Stories Concept</h2>
-            <p class="text-description">Desing</p>
-          </li>
-          <li>
-            <img src="./images/hw-02-gallery-section/img-8.jpg" alt="Organic Food" width: 360px;
-            height: 300px; />
-            <h2 class="subtitle-description">Organic Food</h2>
-            <p class="text-description">Web Site</p>
-          </li>
-          <li>
-            <img src="./images/hw-02-gallery-section/img-9.jpg" alt="Fresh Coffee" width: 360px;
-            height: 300px; />
-            <h2 class="subtitle-description">Fresh Coffee</h2>
-            <p class="text-description">Web Site</p>
-          </li>
-        </ul>
+      <section class="list-section">
+        <div class="container">
+          <h1 class="not-vis">Gallery</h1>
+          <ul class="item-btn">
+            <li><button class="btn-nav" type="button">All</button></li>
+            <li><button class="btn-nav" type="button">Web site</button></li>
+            <li><button class="btn-nav" type="button">App</button></li>
+            <li><button class="btn-nav" type="button">Desing</button></li>
+            <li><button class="btn-nav" type="button">Marketing</button></li>
+          </ul>
+          <ul class="gallery-list">
+            <li class="gallery-photo">
+              <img class="img-list" src="./images/hw-02-gallery-section/img-1.jpg" alt="Banking App
+              Interface Concept" width: 360px; height: 300px; />
+              <div class="brd-photo">
+                <h2 class="subtitle-description">Banking App Interface Concept</h2>
+                <p class="text-description">App</p>
+              </div>
+            </li>
+            <li class="gallery-photo">
+              <img class="img-list" src="./images/hw-02-gallery-section/img-2.jpg" alt="Cashless
+              Payment Marketing" width: 360px; height: 300px; />
+              <div class="brd-photo">
+                <h2 class="subtitle-description">Cashless Payment Marketing</h2>
+                <p class="text-description">Marketing</p>
+              </div>
+            </li>
+            <li class="gallery-photo">
+              <img class="img-list" src="./images/hw-02-gallery-section/img-3.jpg" alt="Meditaion
+              App" width: 360px; height: 300px; />
+              <div class="brd-photo">
+                <h2 class="subtitle-description">Meditaion App</h2>
+                <p class="text-description">App</p>
+              </div>
+            </li>
+            <li class="gallery-photo">
+              <img class="img-list" src="./images/hw-02-gallery-section/img-4.jpg" alt="Taxi
+              Service" width: 360px; height: 300px; />
+
+              <div class="brd-photo">
+                <h2 class="subtitle-description">Taxi Service</h2>
+                <p class="text-description">Marketing</p>
+              </div>
+            </li>
+            <li class="gallery-photo">
+              <img class="img-list" src="./images/hw-02-gallery-section/img-5.jpg" alt="Screen
+              Illustrations" width: 360px; height: 300px; />
+
+              <div>
+                <h2 class="subtitle-description">Screen Illustrations</h2>
+                <p class="text-description">Design</p>
+              </div>
+            </li>
+            <li>
+              <img class="img-list" src="./images/hw-02-gallery-section/img-6.jpg" alt="Online
+              Courses" width: 360px; height: 300px; />
+              <div class="brd-photo">
+                <h2 class="subtitle-description">Online Courses</h2>
+                <p class="text-description">Marketing</p>
+              </div>
+            </li>
+            <li>
+              <img class="img-list" src="./images/hw-02-gallery-section/img-7.jpg" alt="Instagram
+              Stories Concept" width: 360px; height: 300px; />
+              <div class="brd-photo">
+                <h2 class="subtitle-description">Instagram Stories Concept</h2>
+                <p class="text-description">Desing</p>
+              </div>
+            </li>
+            <li>
+              <img class="img-list" src="./images/hw-02-gallery-section/img-8.jpg" alt="Organic
+              Food" width: 360px; height: 300px; />
+              <div class="brd-photo">
+                <h2 class="subtitle-description">Organic Food</h2>
+                <p class="text-description">Web Site</p>
+              </div>
+            </li>
+            <li>
+              <img class="img-list" src="./images/hw-02-gallery-section/img-9.jpg" alt="Fresh
+              Coffee" width: 360px; height: 300px; />
+              <div class="brd-photo">
+                <h2 class="subtitle-description">Fresh Coffee</h2>
+                <p class="text-description">Web Site</p>
+              </div>
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
     <!-- footer section -->
     <footer class="footer">
-      <a class="logo-link link" href="index.html">WEB<span class="logo-white">STUDIO</span></a>
-      <p class="footer-text">
-        Increase the flow of customers and sales for your business with digital marketing & growth
-        solutions.
-      </p>
+      <div class="container">
+        <a class="logo-link link" href="index.html">WEB<span class="logo-white">STUDIO</span></a>
+        <p class="footer-text">
+          Increase the flow of customers and sales for your business with digital marketing & growth
+          solutions.
+        </p>
+      </div>
     </footer>
   </body>
 </html>
