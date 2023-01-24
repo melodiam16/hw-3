@@ -85,6 +85,7 @@ body {
 }
 
 .logo-text {
+  margin-right: 76px;
   color: var(--black-txt-cl);
 }
 
@@ -94,14 +95,12 @@ body {
 }
 
 /* .page-nav {
-;
 } */
 
 .menu {
   display: flex;
   gap: 40px;
   align-items: center;
-  margin-left: 76px;
 }
 
 .menu-link {
@@ -263,6 +262,7 @@ body {
   font-size: 20px;
   line-height: calc(24 / 20);
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
   color: var(--black-txt-cl);
 }
 
@@ -298,6 +298,9 @@ body {
 
 .btn-nav {
   font-family: var(--font-main);
+  font-size: 16px;
+  line-height: calc(24 / 16);
+  letter-spacing: 0.04em;
   color: var(--iris-txt-cl);
   background: #f4f4fd;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
@@ -323,17 +326,12 @@ body {
   font-weight: 500;
   font-size: 20px;
   line-height: calc(24 / 20);
-  margin-top: 32px;
-  padding-top: 32px;
-  padding-left: 16px;
   margin-bottom: 8px;
   color: var(--black-txt-cl);
 }
 
 .text-description {
-  line-height: 24px;
-  padding-left: 16px;
-  padding-bottom: 32px;
+  line-height: calc(24 / 16);
   color: var(--slate-txt-cl);
 }
 
@@ -343,7 +341,8 @@ body {
 }
 
 .list-section {
-  margin-top: 96px;
+  padding-top: 96px;
+  padding-bottom: 120px;
 }
 
 .item-btn {
@@ -356,11 +355,11 @@ body {
 .brd-photo {
   border: 1px solid #e7e9fc;
   border-top: none;
+  padding: 32px 16px;
 }
 
 .gallery-list {
   display: flex;
   flex-wrap: wrap;
-  gap: 24px;
-  margin-bottom: 120px;
+  gap: 48px 24px;
 }
